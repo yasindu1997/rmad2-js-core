@@ -252,6 +252,14 @@ const dell_inspiron_3576 = {
 
 // JSON
 
+// Event handling and DOM manupulation
 
+function btnClick() {
+    var data = document.getElementById('username').value
 
+    console.log(data);
+}
 
+function keyDown() {
+    console.log("btn down");
+}
